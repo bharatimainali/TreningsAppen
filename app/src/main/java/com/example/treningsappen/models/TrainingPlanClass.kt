@@ -17,4 +17,8 @@ data class TrainingPlanClass(
     fun deletePlan() {
 
     }
+
+    fun fetchPlan(userID: String){
+
+    }
 }

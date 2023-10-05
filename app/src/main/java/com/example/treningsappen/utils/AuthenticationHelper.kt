@@ -19,4 +19,9 @@ class AuthenticationHelper {
     fun resetPassword(email: String) {
 
     }
+    fun registerNewUser(email: String, password: String) {
+        if (Utils.validateEmail(email)) {
+            //Firebase user registration logic should be here implement
+        }
+    }
 }

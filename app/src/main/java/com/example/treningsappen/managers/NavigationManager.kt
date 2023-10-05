@@ -1,11 +1,28 @@
 package com.example.treningsappen.managers
+import androidx.navigation.NavController
+class NavigationManager(private val navController: NavController) {
 
+    private val backStack = mutableListOf<String>()
 
-class NavigationManager {
     fun navigateToHome(destination: String) {
+        navController.navigate(destination)
+
+        backStack.add(destination)
 
     }
-    fun navigationToProfile(){
 
+    fun navigateToProfile() {
+
+        navController.navigate("profile")
+
+        backStack.add("profile")
+
+    }
+
+    fun navigateBack() {
+        if (backStack.isNotEmpty()) {
+            val lastDestination = backStack.removeLast()
+            navController.navigate(lastDestination)
+        }
     }
 }
