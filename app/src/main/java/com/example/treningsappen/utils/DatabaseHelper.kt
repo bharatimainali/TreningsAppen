@@ -1,10 +1,6 @@
 package com.example.treningsappen.utils
 
-import com.google.firebase.firestore.FirebaseFirestore
-
 class DatabaseHelper {
-
-    private val firestoreInstance: FirebaseFirestore = FirebaseFirestore.getInstance()
 
     fun fetchData(query: String) {
         // Implement firebase because we are using anyway so i thought we can make a room for it also to prepare,
