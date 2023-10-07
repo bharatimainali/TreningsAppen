@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.example.treningsappen"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.treningsappen"
         minSdk = 27
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -62,7 +62,7 @@ buildscript {
 
 
 dependencies {
-
+    implementation ("androidx.fragment:fragment-ktx:1.3.6")
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
     implementation("androidx.activity:activity-compose:1.7.2")
