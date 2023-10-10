@@ -48,19 +48,6 @@ android {
         }
     }
 }
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
-buildscript {
-    repositories {
-        google()
-        mavenCentral()
-    }
-    dependencies {
-        // Make sure to update the version number to a version that supports API level 34
-        classpath("com.android.tools.build:gradle:8.1.2")
-    }
-}
-
-
 dependencies {
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
