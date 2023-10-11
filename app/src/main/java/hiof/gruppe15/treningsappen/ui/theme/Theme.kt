@@ -1,4 +1,4 @@
-package com.example.treningsappen.ui.theme
+package hiof.gruppe15.treningsappen.ui.theme
 
 import android.app.Activity
 import android.os.Build
