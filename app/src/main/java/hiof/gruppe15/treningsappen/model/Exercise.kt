@@ -3,10 +3,9 @@ package hiof.gruppe15.treningsappen.model
 import androidx.annotation.DrawableRes
 
 data class Exercise(
-    val id: Int,
     val name: String,
     val description: String,
-    //@DrawableRes val image: Int,
+    val steps: List<String>,
+    val difficulty: String,
     val muscleGroup: String,
-    val difficultyLevel: String
 )
