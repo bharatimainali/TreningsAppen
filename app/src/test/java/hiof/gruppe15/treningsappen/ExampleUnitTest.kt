@@ -1,4 +1,4 @@
-package com.example.treningsappen
+package hiof.gruppe15.treningsappen
 
 import org.junit.Test
 

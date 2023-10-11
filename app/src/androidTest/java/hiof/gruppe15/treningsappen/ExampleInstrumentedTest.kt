@@ -1,4 +1,4 @@
-package com.example.treningsappen
+package hiof.gruppe15.treningsappen
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
